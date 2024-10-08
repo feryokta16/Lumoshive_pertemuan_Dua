@@ -1,0 +1,138 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Montserrat;
+}
+.head {
+  height: 100%;
+  width: 90%;
+  background-color: #4caf50;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-bottom: 15px;
+  border-bottom: 5px solid #388e3c;
+  margin-top: 10px;
+}
+.head p {
+  padding: 10px;
+}
+.head img {
+  padding-top: 20px;
+  width: 20%;
+  height: 20%;
+  align-items: center;
+  border-radius: 50%;
+  padding-bottom: 5px;
+}
+
+.about,
+.contact {
+  height: 200px;
+  width: 90%;
+  background-color: #eee;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0%;
+  /* margin-bottom: 20px; */
+}
+.box,
+.contact-contain {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding-bottom: 10px; */
+  margin-top: 40px;
+  height: 120px;
+  width: 70%;
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  justify-items: center;
+}
+
+.box p,
+.contact-contain p {
+  font-size: 13px;
+  padding-bottom: 7px;
+}
+.box h2,
+.contact-contain h2 {
+  font-size: 17px;
+  margin-bottom: 8px;
+  padding-top: px;
+}
+
+.portofolio {
+  background-color: #f9f9f9;
+  height: 750px;
+  width: 90%;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 0%;
+}
+
+.portofolio img {
+  height: 67%;
+  width: 100%;
+  resize: auto;
+  padding-bottom: 10px;
+  padding-right: 4px;
+  padding-left: 4px;
+  /* object-fit: cover; */
+}
+.portofolio h1 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+.portofolio p {
+  font-size: 12px;
+  padding-top: 5px;
+}
+.contoh {
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 70%;
+  background-color: #ffffff;
+  display: inline-block;
+  justify-items: center;
+  text-align: left;
+  border: 1px solid black;
+}
+.contoh h2 {
+  font-size: 17px;
+}
+.contoh p {
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: #333;
+}
+
+footer p {
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 650px) {
+  .box p {
+    font-size: 10px;
+  }
+}
